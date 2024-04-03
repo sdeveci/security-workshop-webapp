@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\s.ferdi.deveci\\Desktop\\BuildSecureNorthwind\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\s.ferdi.deveci\\Documents\\GitHub\\security-workshop-webapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79D125EB-FED7-4931-8F80-2B3344A5E211}|BuildSecureNorthwind\\BuildSecureNorthwind.csproj|c:\\users\\s.ferdi.deveci\\documents\\github\\security-workshop-webapp\\buildsecurenorthwind\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D125EB-FED7-4931-8F80-2B3344A5E211}|BuildSecureNorthwind\\BuildSecureNorthwind.csproj|solutionrelative:buildsecurenorthwind\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D125EB-FED7-4931-8F80-2B3344A5E211}|BuildSecureNorthwind\\BuildSecureNorthwind.csproj|c:\\users\\s.ferdi.deveci\\documents\\github\\security-workshop-webapp\\buildsecurenorthwind\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79D125EB-FED7-4931-8F80-2B3344A5E211}|BuildSecureNorthwind\\BuildSecureNorthwind.csproj|solutionrelative:buildsecurenorthwind\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 978,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,6 +87,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\s.ferdi.deveci\\Documents\\GitHub\\security-workshop-webapp\\BuildSecureNorthwind\\Program.cs",
+              "RelativeDocumentMoniker": "BuildSecureNorthwind\\Program.cs",
+              "ToolTip": "C:\\Users\\s.ferdi.deveci\\Documents\\GitHub\\security-workshop-webapp\\BuildSecureNorthwind\\Program.cs",
+              "RelativeToolTip": "BuildSecureNorthwind\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T06:26:55.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\s.ferdi.deveci\\Documents\\GitHub\\security-workshop-webapp\\BuildSecureNorthwind\\appsettings.json",
+              "RelativeDocumentMoniker": "BuildSecureNorthwind\\appsettings.json",
+              "ToolTip": "C:\\Users\\s.ferdi.deveci\\Documents\\GitHub\\security-workshop-webapp\\BuildSecureNorthwind\\appsettings.json",
+              "RelativeToolTip": "BuildSecureNorthwind\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T06:26:45.828Z",
+              "EditorCaption": ""
             }
           ]
         }
