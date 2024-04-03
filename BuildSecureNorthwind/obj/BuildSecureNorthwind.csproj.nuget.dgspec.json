@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\s.ferdi.deveci\\Desktop\\BuildSecureNorthwind\\BuildSecureNorthwind\\BuildSecureNorthwind.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\s.ferdi.deveci\\Desktop\\BuildSecureNorthwind\\BuildSecureNorthwind\\BuildSecureNorthwind.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\s.ferdi.deveci\\Desktop\\BuildSecureNorthwind\\BuildSecureNorthwind\\BuildSecureNorthwind.csproj",
+        "projectName": "BuildSecureNorthwind",
+        "projectPath": "C:\\Users\\s.ferdi.deveci\\Desktop\\BuildSecureNorthwind\\BuildSecureNorthwind\\BuildSecureNorthwind.csproj",
+        "packagesPath": "C:\\Users\\s.ferdi.deveci\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\s.ferdi.deveci\\Desktop\\BuildSecureNorthwind\\BuildSecureNorthwind\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\s.ferdi.deveci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tfs.icisleri.gov.tr/tfs/EDevlet/_packaging/IcisleriFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.1.34, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

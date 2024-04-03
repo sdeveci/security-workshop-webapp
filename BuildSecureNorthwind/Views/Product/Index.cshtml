@@ -1,0 +1,22 @@
+﻿@model  ProductIndexViewModel
+
+<h4 class="border-bottom pb-2">Ürünler</h4>
+<div class="list-group">
+    @foreach (var product in Model.Products)
+    {
+        <div href="#" class="list-group-item list-group-item-action" aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">@product.Name</h5>
+          
+                    <form asp-action="AddToCart" asp-controller="Cart">
+                       @* @Html.AntiForgeryToken()*@
+                        <input type="hidden" name="productId" value="@product.Id">
+                        <button class="btn btn-sm btn-outline-success">Sepete Ekle</button>
+                    </form>
+            
+            </div>
+            <p class="mb-1">@product.Description</p>
+            <b>@product.UnitPrice.ToString("c")</b>
+        </div>
+    }
+</div>
